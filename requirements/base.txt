@@ -1,0 +1,8 @@
+Django==1.8.3
+MarkupSafe==0.23
+django-pipeline==1.5.3
+futures==3.0.3
+pytz==2015.4
+dj-database-url==0.3.0
+whitenoise==2.0.2
+django-flat-theme==0.9.5

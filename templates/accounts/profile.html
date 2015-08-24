@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <div class="section col s12">
+        <ul class="collection with-header">
+            <li class="collection-header"><h4>{{ user.username }}</h4></li>
+            <li class="collection-item"><b>{% trans "Email:" %}</b>&nbsp;{{ user.email }}</li>
+            <li class="collection-item"><b>{% trans "Last login:" %}</b>&nbsp;{{ user.last_login }}</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}

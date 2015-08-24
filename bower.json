@@ -1,0 +1,20 @@
+{
+  "name": "django-materialize-template",
+  "version": "0.0.0",
+  "authors": [
+    "Erick Mendonca <erickmendonca@yahoo.com.br>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.97.0",
+    "jquery": "2.1.1"
+  }
+}
